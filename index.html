@@ -1,15 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>LiveWithPre</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charcoal's TikTok Monitoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    main p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      text-decoration: none;
+      background: #0078ff;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .btn:hover {
+      background: #005fcc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #eee;
+      margin-top: auto;
+    }
+  </style>
 </head>
 <body>
-  <h1>LiveWithPre</h1>
-  <p>This app shows Pre’s TikTok and YouTube content.</p>
-  <ul>
-    <li><a href="terms.html">Terms of Service</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-  </ul>
+  <header>
+    <h1>Charcoal's TikTok Monitoring</h1>
+  </header>
+
+  <main>
+    <p>
+      Welcome to <strong>Charcoal's TikTok Monitoring</strong> — a tool built to track TikTok activity and bring everything into one place.
+      Stay updated with the latest videos, profile details, and live stream links.
+    </p>
+    <div class="buttons">
+      <a class="btn" href="https://www.tiktok.com/" target="_blank">TikTok</a>
+      <a class="btn" href="terms.html">Terms of Service</a>
+      <a class="btn" href="privacy.html">Privacy Policy</a>
+      <a class="btn" href="https://github.com/yourusername/charcoal-tiktok-monitoring" target="_blank">GitHub Repo</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Charcoal's TikTok Monitoring. All rights reserved.
+  </footer>
 </body>
 </html>
