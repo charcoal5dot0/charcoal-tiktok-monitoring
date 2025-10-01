@@ -1,92 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charcoal's TikTok Monitoring</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f7fa;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header {
-      background: #111;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      letter-spacing: 1px;
-    }
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-      text-align: center;
-    }
-    main p {
-      max-width: 600px;
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-    .buttons {
-      margin-top: 2rem;
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    .btn {
-      text-decoration: none;
-      background: #0078ff;
-      color: white;
-      padding: 0.8rem 1.5rem;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background 0.2s ease;
-    }
-    .btn:hover {
-      background: #005fcc;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      background: #eee;
-      margin-top: auto;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Charcoal's TikTok Monitoring</h1>
-  </header>
+# Charcoal's TikTok Monitoring
 
-  <main>
-    <p>
-      Welcome to <strong>Charcoal's TikTok Monitoring</strong> — a tool built to track TikTok activity and bring everything into one place.
-      Stay updated with the latest videos, profile details, and live stream links.
-    </p>
-    <div class="buttons">
-      <a class="btn" href="https://www.tiktok.com/" target="_blank">TikTok</a>
-      <a class="btn" href="terms.html">Terms of Service</a>
-      <a class="btn" href="privacy.html">Privacy Policy</a>
-      <a class="btn" href="https://github.com/yourusername/charcoal-tiktok-monitoring" target="_blank">GitHub Repo</a>
-    </div>
-  </main>
+This repository hosts the static website for **Charcoal's TikTok Monitoring**,  
+an app designed to track TikTok activity and provide users with quick access  
+to the latest videos, live streams, and account details.
 
-  <footer>
-    &copy; 2025 Charcoal's TikTok Monitoring. All rights reserved.
-  </footer>
-</body>
-</html>
+The site also includes the required Terms of Service and Privacy Policy pages  
+for TikTok API integration.
+
+---
+
+## 🌐 Live Site
+Once deployed with GitHub Pages, the site will be available at:  
+`https://<your-username>.github.io/charcoal-tiktok-monitoring/`
+
+---
+
+## 📄 Pages
+- **Home**: `index.html` – Overview and quick links  
+- **Terms of Service**: `terms.html` – User guidelines and legal terms  
+- **Privacy Policy**: `privacy.html` – How user data is handled
+
+---
+
+## ⚡ Usage
+- Use the Terms of Service and Privacy Policy URLs in the TikTok Developer Portal.  
+- Provide the homepage URL as your app’s **Web/Desktop URL** during app setup.
+
+---
+
+## 📌 Notes
+- This is a minimal, lightweight site built with plain HTML + CSS.  
+- No frameworks or build tools required.  
+- Content and branding may be updated as the app evolves.
+
+---
+
+## 📜 License
+This project is released under the MIT License.  
