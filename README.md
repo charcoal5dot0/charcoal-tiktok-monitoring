@@ -1,48 +1,92 @@
-# Charcoal's TikTok Monitoring Site
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charcoal's TikTok Monitoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    main p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      text-decoration: none;
+      background: #0078ff;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .btn:hover {
+      background: #005fcc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #eee;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Charcoal's TikTok Monitoring</h1>
+  </header>
 
-This repository hosts the static website for **LiveWithPre**, an app that shows Pre’s latest TikTok and YouTube content.  
-The site also provides the required Terms of Service and Privacy Policy pages for TikTok API integration.
+  <main>
+    <p>
+      Welcome to <strong>Charcoal's TikTok Monitoring</strong> — a tool built to track TikTok activity and bring everything into one place.
+      Stay updated with the latest videos, profile details, and live stream links.
+    </p>
+    <div class="buttons">
+      <a class="btn" href="https://www.tiktok.com/" target="_blank">TikTok</a>
+      <a class="btn" href="terms.html">Terms of Service</a>
+      <a class="btn" href="privacy.html">Privacy Policy</a>
+      <a class="btn" href="https://github.com/yourusername/charcoal-tiktok-monitoring" target="_blank">GitHub Repo</a>
+    </div>
+  </main>
 
----
-
-## 🌐 Live Site
-Once deployed with GitHub Pages, the site will be available at:  
-`https://<your-username>.github.io/livewithpre-site/`
-
----
-
-## 📄 Pages
-- **Home**: `index.html` – Overview of the app and links to socials  
-- **Terms of Service**: `terms.html` – User guidelines and legal terms  
-- **Privacy Policy**: `privacy.html` – How user data is handled
-
----
-
-## 🚀 Deployment
-This repo is designed to be deployed on **GitHub Pages**:
-
-1. Go to **Settings → Pages**.  
-2. Under **Build and deployment**, select:
-   - Branch: `main`  
-   - Folder: `/ (root)`  
-3. Save and wait for GitHub Pages to publish.  
-4. A green banner will show the live URL.
-
----
-
-## ⚡ Usage
-- Link the Terms of Service and Privacy Policy URLs in the TikTok Developer Portal.  
-- Use the homepage as the **Web/Desktop URL** for app registration.
-
----
-
-## 📌 Notes
-- This site is intentionally minimal and lightweight.  
-- Content may be updated as Pre’s app grows.  
-- No frameworks or build tools are required — plain HTML only.
-
----
-
-## 📜 License
-This project is released under the MIT License.  
-Feel free to reuse or modify for your own app setup.
+  <footer>
+    &copy; 2025 Charcoal's TikTok Monitoring. All rights reserved.
+  </footer>
+</body>
+</html>
